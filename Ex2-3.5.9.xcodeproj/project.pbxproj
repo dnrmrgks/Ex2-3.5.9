@@ -21,6 +21,10 @@
 		00FD9A0F1883D59300AD02B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD99F11883D59300AD02B6 /* UIKit.framework */; };
 		00FD9A171883D59300AD02B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FD9A151883D59300AD02B6 /* InfoPlist.strings */; };
 		00FD9A191883D59300AD02B6 /* Ex2_3_5_9Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD9A181883D59300AD02B6 /* Ex2_3_5_9Tests.m */; };
+		00FD9A231883D5E000AD02B6 /* girl7.png in Resources */ = {isa = PBXBuildFile; fileRef = 00FD9A221883D5E000AD02B6 /* girl7.png */; };
+		00FD9A261883D66E00AD02B6 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD9A251883D66E00AD02B6 /* Movie.m */; };
+		00FD9A281883E08600AD02B6 /* ty.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00FD9A271883E08600AD02B6 /* ty.sqlite */; };
+		00FD9A2A1883E0FF00AD02B6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FD9A291883E0FF00AD02B6 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		00FD9A141883D59300AD02B6 /* Ex2-3.5.9Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex2-3.5.9Tests-Info.plist"; sourceTree = "<group>"; };
 		00FD9A161883D59300AD02B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FD9A181883D59300AD02B6 /* Ex2_3_5_9Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex2_3_5_9Tests.m; sourceTree = "<group>"; };
+		00FD9A221883D5E000AD02B6 /* girl7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = girl7.png; path = ../../../../Downloads/girl7.png; sourceTree = "<group>"; };
+		00FD9A241883D66E00AD02B6 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		00FD9A251883D66E00AD02B6 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		00FD9A271883E08600AD02B6 /* ty.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = ty.sqlite; path = ../../SQLite/SQLite/ty.sqlite; sourceTree = "<group>"; };
+		00FD9A291883E0FF00AD02B6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FD9A2A1883E0FF00AD02B6 /* libsqlite3.dylib in Frameworks */,
 				00FD99F01883D59300AD02B6 /* CoreGraphics.framework in Frameworks */,
 				00FD99F21883D59300AD02B6 /* UIKit.framework in Frameworks */,
 				00FD99EE1883D59300AD02B6 /* Foundation.framework in Frameworks */,
@@ -101,6 +111,7 @@
 		00FD99EC1883D59300AD02B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00FD9A291883E0FF00AD02B6 /* libsqlite3.dylib */,
 				00FD99ED1883D59300AD02B6 /* Foundation.framework */,
 				00FD99EF1883D59300AD02B6 /* CoreGraphics.framework */,
 				00FD99F11883D59300AD02B6 /* UIKit.framework */,
@@ -112,6 +123,8 @@
 		00FD99F31883D59300AD02B6 /* Ex2-3.5.9 */ = {
 			isa = PBXGroup;
 			children = (
+				00FD9A271883E08600AD02B6 /* ty.sqlite */,
+				00FD9A221883D5E000AD02B6 /* girl7.png */,
 				00FD99FC1883D59300AD02B6 /* AppDelegate.h */,
 				00FD99FD1883D59300AD02B6 /* AppDelegate.m */,
 				00FD99FF1883D59300AD02B6 /* Main.storyboard */,
@@ -119,6 +132,8 @@
 				00FD9A031883D59300AD02B6 /* ViewController.m */,
 				00FD9A051883D59300AD02B6 /* Images.xcassets */,
 				00FD99F41883D59300AD02B6 /* Supporting Files */,
+				00FD9A241883D66E00AD02B6 /* Movie.h */,
+				00FD9A251883D66E00AD02B6 /* Movie.m */,
 			);
 			path = "Ex2-3.5.9";
 			sourceTree = "<group>";
@@ -229,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FD9A061883D59300AD02B6 /* Images.xcassets in Resources */,
+				00FD9A231883D5E000AD02B6 /* girl7.png in Resources */,
 				00FD99F81883D59300AD02B6 /* InfoPlist.strings in Resources */,
 				00FD9A011883D59300AD02B6 /* Main.storyboard in Resources */,
+				00FD9A281883E08600AD02B6 /* ty.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +268,7 @@
 			files = (
 				00FD9A041883D59300AD02B6 /* ViewController.m in Sources */,
 				00FD99FE1883D59300AD02B6 /* AppDelegate.m in Sources */,
+				00FD9A261883D66E00AD02B6 /* Movie.m in Sources */,
 				00FD99FA1883D59300AD02B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
